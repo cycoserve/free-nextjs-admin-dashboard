@@ -1,0 +1,5 @@
+# Stack Auth keys
+# Get these variables by creating a project on https://app.stack-auth.com.
+NEXT_PUBLIC_STACK_PROJECT_ID=088ce53e-27fd-4d85-8977-43cef0a3a50b
+NEXT_PUBLIC_STACK_PUBLISHABLE_CLIENT_KEY=pck_xyh9tt68v5n1zmcyw1kkh4xq47fqwfnn4739p6snpedwg
+STACK_SECRET_SERVER_KEY=ssk_t58yvsh690pyaxws5anahbw3xyr76szr12p11e7r0k60g

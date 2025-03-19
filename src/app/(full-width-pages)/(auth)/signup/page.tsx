@@ -1,4 +1,4 @@
-import SignUpForm from "@/components/auth/SignUpForm";
+import { SignUp } from "@stackframe/stack";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -7,6 +7,13 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-export default function SignUp() {
-  return <SignUpForm />;
+export default function CustomSignUpPage() {
+  return (
+  <>
+  <div className="min-h-screen flex flex-1 justify-center items-center w-full">
+      <SignUp fullPage />
+  </div>
+  </>
+
+  );
 }
